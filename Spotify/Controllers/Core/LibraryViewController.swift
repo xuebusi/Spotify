@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LabraryViewController.swift
 //  Spotify
 //
 //  Created by shiyanjun on 2023/10/9.
@@ -7,14 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LibraryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Home"
-        view.backgroundColor = .red
+
+        view.backgroundColor = .systemBackground
     }
-
-
+    
 }
-
